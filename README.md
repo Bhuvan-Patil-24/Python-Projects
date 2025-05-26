@@ -1,0 +1,2 @@
+🐍 Python Practice Programs
+Welcome to my Python Projects Repo! This repository contains a collection of Python scripts and small projects that I’ve written to practice and improve my programming skills. These programs range from basic syntax practice to more advanced mini-projects.
