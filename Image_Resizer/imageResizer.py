@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("Python-Projects\image.jpeg", cv2.IMREAD_UNCHANGED)
+img = cv2.imread("Python-Projects/Image_Resizer/image.jpeg", cv2.IMREAD_UNCHANGED)
 print(type(img))
 print("Original Dimensions : ", img.shape)
 print("Image Type : ", img.dtype)
@@ -11,7 +11,8 @@ width = int(img.shape[1] * scale_percent / 100)
 
 resized_img = cv2.resize(img, (width, height))
 
-cv2.imwrite("Python-Projects\Resized_image.png", resized_img) # Uncomment the above line to save the resized image
+print("Image Resized successfully")
+cv2.imwrite("Python-Projects/Image_Resizer/Resized_image.png", resized_img) 
 
 # Display the resized image
 # cv2.imshow("Image", img)
